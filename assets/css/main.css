@@ -875,15 +875,12 @@ section,
 # Interests Section
 --------------------------------------------------------------*/
 .interests .features-item {
-  background-color: rgba(0, 0, 0, 0.278);
+  background-color: var(--surface-color);
   display: flex;
   align-items: center;
-  padding: 50px;
-  margin: 50px;
+  padding: 20px;
   transition: 0.3s;
-  border-radius: 15px;
-  border-color: #f6ff00;
-  border: 5px solid color-mix(in srgb, var(--default-color), transparent 50%);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
   position: relative;
 }
 
