@@ -145,7 +145,7 @@ my{
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: rgba(0, 0, 0, 0);
+  --background-color: rgba(75, 74, 72, 0);
   color: var(--default-color);
   background-color: var(--background-color);
   padding: 15px 0;
@@ -170,7 +170,7 @@ my{
 }
 
 .scrolled .header {
-  box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0 18px rgba(0, 0, 0, 0.458);
 }
 
 /* Global Header on Scroll
