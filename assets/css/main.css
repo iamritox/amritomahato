@@ -25,6 +25,13 @@
   --nav-dropdown-hover-color: #ffcc00; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
+.my, h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#ffffff, #f0b400);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .bgvideo{
   position: fixed;
   height: 100vh;
@@ -660,7 +667,7 @@ section,
   margin: 0;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  color: color-mix(in srgb, var(--default-color), transparent 25%);
   position: relative;
 }
 
