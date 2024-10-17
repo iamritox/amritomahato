@@ -25,11 +25,14 @@
   --nav-dropdown-hover-color: #ffcc00; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
-.my, h1 {
-  font-size: 72px;
+.my, h1, .description-title {
   background: -webkit-linear-gradient(#ffffff, #f0b400);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.description-title {
+  font-size: 37px;
 }
 
 .bgvideo{
@@ -887,22 +890,22 @@ section,
   align-items: center;
   padding: 20px;
   transition: 0.3s;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  border: 3px solid color-mix(in srgb, var(--default-color), transparent 50%);
   position: relative;
 }
 
-.interests .features-item i {
+.interests .features-item img {
   font-size: 32px;
   padding-right: 10px;
   line-height: 0;
 }
 
 .interests .features-item h3 {
-  font-weight: 700;
+  font-weight: 600;
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-size: 16px;
+  font-size: 22px;
 }
 
 .interests .features-item h3 a {
